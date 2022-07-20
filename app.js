@@ -1,11 +1,8 @@
 'use strict';
 
-
-
 // API KEY from Giphy
 const API_KEY = '47SoFht1UKvCbTBankcrDzcTocRDu5Xr';
 const BASE_URL = 'https://api.giphy.com/v1/gifs/search';
-
 
 /** Given a giphy gif url, set the src of an img tag and appends to dom */
 function updateDOM(giphyData) {
